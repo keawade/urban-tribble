@@ -1,0 +1,21 @@
+{
+  "name": "urban-tribble",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:keawade/urban-tribble.git",
+  "author": "Keith Wade <keawade@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
