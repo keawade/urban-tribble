@@ -3,6 +3,13 @@
         "ecmaVersion": 6
     },
     "extends": "standard",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "Vue": true
+    },
     "rules": {
         
     }
